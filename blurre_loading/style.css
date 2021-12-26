@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.fundo{
+  background-image:url('https://images.unsplash.com/photo-1554110397-9bac083977c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -30;
+  left: -30;
+  height: calc(100vh + 60px);
+  width: calc(100vw + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text{
+  font-size: 50px;
+  color: white;
+  
+}
