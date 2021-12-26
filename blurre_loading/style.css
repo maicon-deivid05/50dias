@@ -12,6 +12,7 @@ body{
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
+  
 }
 
 .fundo{
@@ -31,5 +32,5 @@ body{
 .loading-text{
   font-size: 50px;
   color: white;
-  
+
 }
