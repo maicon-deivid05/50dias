@@ -100,6 +100,10 @@ h1{
   background-color: var(--right-bg--color);
 }
 
+.split.left, .split.split.left::before, .split.right, .split.split.right::before{
+  transition: all 1s ease-in-out;
+}
+
 .hover-left .left{
   width: var(--hover-width);
 }
